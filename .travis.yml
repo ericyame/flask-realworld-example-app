@@ -14,3 +14,4 @@ before_script:
 
 script:
   - pycodestyle --max-line-length=160 .
+  - cd tests;pytest -v
